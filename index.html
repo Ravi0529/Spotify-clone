@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/fav-icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <header>
+                <img src="./assets/cross.svg" alt="close/cross" class="cross">
+                <div class="main">
+                    <img class="logo" src="./assets/logo.png" alt="logo">
+                    <div class="home">
+                        <svg class="home-icon" data-encore-id="icon" role="img" aria-hidden="true"
+                            class="Svg-sc-ytk21e-0 bneLcE home-active-icon" viewBox="0 0 24 24">
+                            <path
+                                d="M13.5 1.515a3 3 0 0 0-3 0L3 5.845a2 2 0 0 0-1 1.732V21a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-6h4v6a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7.577a2 2 0 0 0-1-1.732l-7.5-4.33z"
+                                fill="white"></path>
+                        </svg>
+                        <p>Home</p>
+                    </div>
+                    <div class="search">
+                        <svg class="search-icon" data-encore-id="icon" role="img" aria-hidden="true"
+                            class="Svg-sc-ytk21e-0 bneLcE search-icon" viewBox="0 0 24 24"
+                            fill="rgba(255, 255, 255, 0.473)">
+                            <path
+                                d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 1 0 1.414-1.414l-4.344-4.344a9.157 9.157 0 0 0 2.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z">
+                            </path>
+                            <p>Search</p>
+                    </div>
+                    </svg>
+                </div>
+            </header>
+            <div class="left-down" style="color: white;">
+                <div class="library">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24"
+                        class="Svg-sc-ytk21e-0 bneLcE">
+                        <path
+                            d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z"
+                            fill="white">
+                        </path>
+                    </svg>
+                    <p>Your Library</p>
+                </div>
+                <div class="songsList">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img class="hamburger" src="./assets/hamburger.svg" alt="hamburger">
+            <nav class="navbar">
+
+                <div class="arrows">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true"
+                        class="Svg-sc-ytk21e-0 cAMMLk IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16">
+                        <path
+                            d="M11.03.47a.75.75 0 0 1 0 1.06L4.56 8l6.47 6.47a.75.75 0 1 1-1.06 1.06L2.44 8 9.97.47a.75.75 0 0 1 1.06 0z"
+                            fill="rgba(255, 255, 255, 0.594)"></path>
+                    </svg>
+                    <svg data-encore-id="icon" role="img" aria-hidden="true"
+                        class="Svg-sc-ytk21e-0 cAMMLk IYDlXmBmmUKHveMzIPCF" viewBox="0 0 16 16">
+                        <path
+                            d="M4.97.47a.75.75 0 0 0 0 1.06L11.44 8l-6.47 6.47a.75.75 0 1 0 1.06 1.06L13.56 8 6.03.47a.75.75 0 0 0-1.06 0z"
+                            fill="rgba(255, 255, 255, 0.594)"></path>
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button class="signup">
+                        Sign up
+                    </button>
+                    <button class="login">
+                        Log in
+                    </button>
+                </div>
+            </nav>
+            <main class="main-content">
+                <h1>Spotify Playlists</h1>
+                <div class="allcards">
+                    
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo"> </div>
+                        <div class="songbuttons">
+                            <img class="btn" id="previous" src="./assets/previous.svg" alt="previous">
+                            <img class="btn" id="play" src="./assets/play.svg" alt="play">
+                            <img class="btn" id="next" src="./assets/next.svg" alt="next">
+                        </div>
+                        <div class="timenvol">
+                            <div class="songtime"> </div>
+                            <div class="volume">
+                                <img src="./assets/volume.svg" alt="volume">
+                                <input type="range" class="volumecontrol">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
